@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RedditApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./CSS/style.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main id="mainArea">
+        <section class="sectionNewUser">
+            <div class="user">
+                <input id="userName" name="userName" type="text" placeholder="username" />
+                <input id="passWort" name="passWort" type="text" placeholder="passwort" />
+                <button id="btnNewUser">New User</button>
+            </div>
+            <nav role="usersArea">
+                <ul>
+                    <li><a class="usersBtn" type="button" href="#"> Users ▼</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Sukru</a></li>
+                            <li><a href="#">Ahmet</a></li>
+                            <li><a href="#">Mehmet</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+
+
+        </section>
+        <!--<div id="topic">
+                <div class="addNewTopic"></div>
+            </div>
+            -->
+        <section class="section_Add_Topic">
+            <div class="MyRedditStream">
+            <p >MyRedditStream</p>
+        </div>
+            <div class="navTopics">
+                <button id="addTopicBtn">Add Topic</button>
+                <input id="topicInput" name="topicInput" type="text" placeholder="New Topic" />
+
+                <button id="topicBtn">Travel</button>
+                <button id="topicBtn">Art</button>
+                <button id="topicBtn">Movie</button>
+                <button id="topicBtn">Car</button>
+            </div>
+            
+        </section>
+
+        <br> <br><br> <br>
+
+        <section class="sectionAddpost">
+            <div id="addNewPost">
+                <div class="tit_img_cat">
+                    <div>
+                        <label for="title">Title
+                            <input id="inputTitle" name="inputTitle" type="text">
+                        </label>
+                    </div>
+                    <div>
+                        <label for="imageUrlInput">Image URL
+                            <input id="imageUrlInput" type="url" name="imageUrlInput" placeholder="https://example.com"
+                                pattern="https://.*" size="30" required />
+                        </label>
+                    </div>
+                    <div class="categoryArea">
+                        <button class="categoryBtn">Category ▼</button>
+                        <div class="category-content">
+                            <a href="#">Travel</a>
+                            <a href="#">Art</a>
+                            <a href="#">Movie</a>
+                            <a href="#">Car</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="message">
+                    <label for="message">
+                        <p>Message: <i class="arrow down"></i></p>
+                        <textarea name="textArea" id="textArea" cols="70" rows="3"></textarea>
+                    </label>
+                </div>
+                <div>
+                    <button id="btnNewPost">New Post</button>
+                </div>
+            </div>
+        </section>
+
+        <br> <br><br> <br>
+
+        <section class="post">
+            <div id="postMain">
+
+                <div id="postHeader">
+                    <div id="voteUp">
+                        <boutton class="voteUp">▲</boutton>
+                    </div>
+                    <div class="secondeSection">
+                        <div id="topicSubject">
+                            <boutton class="topicSubject">Subject</boutton>
+                        </div>
+                        <div id="user">
+                            <p class="user">user</p>
+                        </div>
+                        <div id="topicTitle">
+                            <h2 class="topicTitle">Title</h2>
+                        </div>
+                    </div>
+                    <div class="imgArea">
+                        <input id="inputImg" type="url" placeholder="Your image here">
+                    </div>
+                </div>
+                <div id="description">
+                    <div id="cunter">
+                        <span class="cunter">2</span>
+                    </div>
+                    <div class="description">
+                        <p class="descriptionText">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. <br>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                </div>
+                <div id="postComment">
+                    <div>
+                        <boutton>▼</boutton>
+                    </div>
+                    <div>
+                        <textarea name="commentArea" id="commentArea" cols="70" rows="3"></textarea>
+                    </div>
+                    <div>
+                        <button id="btnNewPost">Comment</button>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./JS/controller.js"></script>
+
+
+</body>
+
+</html>

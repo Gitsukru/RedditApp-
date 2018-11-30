@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+#mainArea {
+    display: flex;
+    flex-direction: column;
+    width: 99vw;
+ 
+    background-color: rgb(214, 211, 211);
+}
+/* yeni kullanici ====> */
+.sectionNewUser {
+    display: flex;
+    flex-direction: inline-block;
+    width: 99%;
+    height: 100%;
+   justify-content: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: rgb(192, 18, 18);
+    
+}
+.newUserArea {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 10%;
+    background-color: rgb(12, 51, 180);
+}
+.user{
+    display: flex;
+    font-size: 1em;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+}
+.user input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+    width: 30%;
+    min-width: 10%;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    border:1px solid red;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(189, 194, 192);
+}
+
+.user button{
+    display: flex;
+    width: 20%;
+    min-width: 10%;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1em;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+    border:1px solid red;
+    background-color: rgb(27, 30, 233);
+    position: relative;
+    cursor: pointer;
+}
+.usersBtn{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 30, 233);
+    margin: 5px;
+    padding: 5px;
+    width: 100%;
+    font-size: 1em;
+    color: white;
+    border-radius: 6px;
+    position: relative;
+    
+}
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+      font-family: monospace;
+      margin-left: 10%;
+  }
+  
+  ul {
+    background: rgb(27, 30, 233)e;
+      list-style: none;
+      margin: 0;
+      padding-left: 0;
+  }
+  
+  li {
+      color: #fff;
+      display: block;
+      float: left;
+      align-self: center;
+      padding: 1rem;
+      position: relative;
+      text-decoration: none;
+      border-radius: 6px;
+    transition-duration: 0.5s;
+  }
+    
+  li a {
+    color: #fff;
+  }
+  
+  li:hover {
+      background: rgb(27, 30, 233);
+      cursor: pointer;
+  }
+  
+  ul li ul {
+      background: orange;
+      visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+      position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+      left: 0;
+    display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+  }
+  
+  ul li ul li {
+      clear: both;
+    width: 100%;
+  }
+/********* yeni kullanici <==== *******/
+
+  .section_Add_Topic {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-content: center;
+    
+    align-self: center;
+}
+
+.navTopics{
+display: flex;
+width: 50%;
+align-self: center;
+}
+h1{
+    display: flex;
+   justify-content: center;
+    
+}
+
+.navTopics, button ~ input{
+background-color: blueviolet;
+}
