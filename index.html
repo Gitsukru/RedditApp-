@@ -34,7 +34,7 @@
 
 
         </section>
-        
+
         <section class="section_Add_Topic">
             <div class="MyRedditStream">
                 MyRedditStream
@@ -51,42 +51,42 @@
 
         </section>
 
-        <br> <br><br> <br>
+
 
         <section class="sectionAddpost">
-            <div id="addNewPost">
-                <div class="tit_img_cat">
-                    <div>
-                        <label for="title">Title
-                            <input id="inputTitle" name="inputTitle" type="text">
-                        </label>
-                    </div>
-                    <div>
-                        <label for="imageUrlInput">Image URL
-                            <input id="imageUrlInput" type="url" name="imageUrlInput" placeholder="https://example.com"
-                                pattern="https://.*" size="30" required />
-                        </label>
-                    </div>
-                    <div class="categoryArea">
-                        <button class="categoryBtn">Category ▼</button>
-                        <div class="category-content">
-                            <a href="#">Travel</a>
-                            <a href="#">Art</a>
-                            <a href="#">Movie</a>
-                            <a href="#">Car</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="message">
-                    <label for="message">
-                        <p>Message: <i class="arrow down"></i></p>
-                        <textarea name="textArea" id="textArea" cols="70" rows="3"></textarea>
-                    </label>
-                </div>
-                <div>
-                    <button id="btnNewPost">New Post</button>
-                </div>
+
+            <div class="tit_img_cat">
+
+                <label for="title">Title
+
+                    <input id="inputTitle" name="inputTitle" type="text">
+                </label>
+
+                <label for="imageUrlInput">Image URL
+                    <input id="imageUrlInput" type="url" name="imageUrlInput" placeholder="https://example.com" pattern="https://.*"
+                        size="50" required />
+                </label>
+
+                <ul>
+                    <li><a class="categoryBtn" type="button" href="#"> Category ▼</a>
+                        <ul class="category-content">
+                            <li><a href="#">Travel</a></li>
+                            <li><a href="#">Art</a></li>
+                            <li><a href="#">Movie</a></li>
+                            <li><a href="#">Car</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
             </div>
+            <div class="message">
+                <label id="labelId" for="message">
+                    Message: 
+                    <textarea name="textArea" id="textArea" cols="30" rows="3"></textarea>
+                </label>
+                <button id="btnNewPost">New Post</button>
+            </div>
+
         </section>
 
         <br> <br><br> <br>

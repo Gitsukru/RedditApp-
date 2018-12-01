@@ -8,7 +8,7 @@
     width: 99vw;
     min-width: 15%;
     align-items: center;
-   
+
     flex-wrap: wrap;
 }
 
@@ -31,7 +31,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
- 
+
     background-color: rgb(12, 51, 180);
 }
 
@@ -54,8 +54,8 @@
     flex-wrap: wrap;
     padding: 5px;
     margin: 5px;
-    
-    
+
+
     border: 1px solid red;
     border: 1px solid black;
     border-radius: 6px;
@@ -88,7 +88,7 @@
     font-size: 1em;
     color: white;
     border-radius: 6px;
-  
+
     min-width: 100px;
 }
 
@@ -98,14 +98,14 @@ a {
 
 nav {
     font-family: monospace;
-   
+
 }
 
 ul {
     background: rgb(27, 30, 233)e;
     list-style: none;
     margin: 0;
-   
+
 }
 
 li {
@@ -118,7 +118,7 @@ li {
     text-decoration: none;
     border-radius: 6px;
     transition-duration: 0.5s;
-   
+
 }
 
 li a {
@@ -164,33 +164,35 @@ ul li ul li {
     width: 57%;
     height: 100%;
     min-width: 150px;
-    justify-content: space-evenly;
+    
     margin: 5px;
     margin-top: 35px;
     padding: 5px;
-    border-radius: 6px;
-    background-color: rgb(190, 143, 235);
+    border-radius: 30px;
+    background-color: rgb(216, 225, 240);
 }
 
 
 
 .MyRedditStream {
     display: flex;
-    margin: 10px;
+    margin: 5px 5px 5px 20px;
     padding: 5px;
     font-size: 2em;
     flex-wrap: wrap;
-    
+
 }
+
 .navTopics {
     display: flex;
     width: 98%;
-    align-self: center;
+    justify-content: center;
     margin: 5px;
     padding: 5px;
     flex-wrap: wrap;
 }
-.navTopics button{
+
+.navTopics button {
     display: flex;
     min-width: 50px;
     justify-content: center;
@@ -201,23 +203,27 @@ ul li ul li {
     padding: 5px;
     flex-wrap: wrap;
     border-radius: 6px;
-    
+
     color: white;
 }
-#addTopicBtn{
+
+#addTopicBtn {
     background-color: rgb(12, 51, 180);
+    font-weight: bold;
     border: 1px solid rgb(255, 255, 255);
 }
-#topicBtn{
+
+#topicBtn {
     background-color: blueviolet;
-} 
+}
 
 
-.navTopics button:hover{
-   
+.navTopics button:hover {
+
     cursor: pointer;
 }
-.navTopics input{
+
+.navTopics input {
     display: flex;
     min-width: 50px;
     justify-content: center;
@@ -226,7 +232,7 @@ ul li ul li {
     width: 20%;
     min-width: 100px;
     margin: 5px;
-    margin-right: 40px;
+   
     padding: 5px;
     flex-wrap: wrap;
     border-radius: 6px;
@@ -239,25 +245,106 @@ ul li ul li {
 
 /********* konu ekleme ====> *******/
 
-.sectionAddpost{
+.sectionAddpost {
     display: flex;
     flex-direction: column;
     width: 57%;
     height: 100%;
     min-width: 150px;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 5px;
-    margin-top: 35px;
+    margin-top: 10px;
     padding: 5px;
-    border-radius: 50px;
+    border-radius: 30px;
     background-color: rgb(134, 176, 240);
 }
 
 
+.tit_img_cat {
+    display: flex;
+    width: 99%;
+    min-width: 150px;
+    flex-direction: row;
+    justify-content: center;
+    margin:5px;
+    padding:5px;
+    flex-wrap: wrap;
+   
+}
+
+label {
+    align-items: center;
+    display: flex;
+    min-width: 100px;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+label input {
+    display: flex;
+    width: 70%;
+    min-width: 100px;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.categoryBtn {
+    display: flex;
+    justify-content: center;
+  
+    font-size: 1em;
+    color: white;
+    border-radius: 6px;
+    min-width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+}
 
 
 
+#labelId{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5%;
+    min-width: 200px;
+    align-self: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
 
+#textArea{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-width: 200px;
+    align-self: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
 
-
-
+#btnNewPost{
+    display: flex;
+    width: 20%;
+    min-width: 100px;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1em;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid red;
+    background-color: rgb(27, 30, 233);
+    position: relative;
+    cursor: pointer;
+}
