@@ -81,66 +81,69 @@
             </div>
             <div class="message">
                 <label id="labelId" for="message">
-                    Message: 
+                    Message:
                     <textarea name="textArea" id="textArea" cols="30" rows="3"></textarea>
+                    <button id="btnNewPost">New Post</button>
                 </label>
-                <button id="btnNewPost">New Post</button>
+
             </div>
 
         </section>
 
-        <br> <br><br> <br>
 
         <section class="post">
-            <div id="postMain">
-
-                <div id="postHeader">
-                    <div id="voteUp">
-                        <boutton class="voteUp">▲</boutton>
-                    </div>
-                    <div class="secondeSection">
-                        <div id="topicSubject">
-                            <boutton class="topicSubject">Subject</boutton>
-                        </div>
-                        <div id="user">
-                            <p class="user">user</p>
-                        </div>
-                        <div id="topicTitle">
-                            <h2 class="topicTitle">Title</h2>
-                        </div>
-                    </div>
-                    <div class="imgArea">
-                        <input id="inputImg" type="url" placeholder="Your image here">
-                    </div>
+            <div id="voteArea">
+                <div id="voteUp">
+                    <boutton class="voteUp">▲</boutton>
                 </div>
-                <div id="description">
-                    <div id="cunter">
-                        <span class="cunter">2</span>
-                    </div>
-                    <div class="description">
-                        <p class="descriptionText">Lorem ipsum dolor sit amet,
-                            consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua. <br>
-                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat.</p>
-                    </div>
-
+                <div id="cunter">
+                    <span class="cunter">2</span>
                 </div>
-                <div id="postComment">
-                    <div>
-                        <boutton>▼</boutton>
-                    </div>
-                    <div>
-                        <textarea name="commentArea" id="commentArea" cols="70" rows="3"></textarea>
-                    </div>
-                    <div>
-                        <button id="btnNewPost">Comment</button>
-                    </div>
-
+                <div>
+                    <boutton id="voteDown">▼</boutton>
                 </div>
+            </div>
 
+            
+
+                <div class="secondeSection">
+                    <!-- <div id="topicSubject">-->
+                    <span class="topicSubject">Subject</span>
+                    <!-- </div>-->
+                    <!-- <div id="user">-->
+                    <span id="user">user</span>
+                    <!-- </div>-->
+                    <!-- <div id="topicTitle">-->
+                    <span class="topicTitle">Title</span>
+                    <!-- </div>-->
+                </div>
+                <div class="imgArea"></div>
+            
+
+            <br><br><br><br><br>
+            <div id="description">
+
+                <div class="description">
+                    <p class="descriptionText">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, <br>sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. <br>
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
 
             </div>
+            <div id="postComment">
+
+                <div>
+                    <textarea name="commentArea" id="commentArea" cols="70" rows="3"></textarea>
+                </div>
+                <div>
+                    <button id="btnNewPost">Comment</button>
+                </div>
+
+            </div>
+
+
         </section>
     </main>
 
