@@ -1,0 +1,110 @@
+/********* New post ====> *******/
+
+.sectionAddpost {
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+    height: 100%;
+    min-width: 150px;
+    justify-content: space-;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(134, 176, 240);
+}
+
+
+.tit_img_cat {
+    display: flex;
+    width: 99%;
+    min-width: 150px;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    flex-wrap: wrap;
+
+}
+
+label {
+    align-items: center;
+    display: flex;
+    min-width: 100px;
+    flex-wrap: wrap;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+label input {
+    display: flex;
+    width: 70%;
+    min-width: 100px;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+
+.categoryBtn {
+    display: flex;
+    justify-content: center;
+
+    font-size: 1em;
+    color: white;
+    border-radius: 6px;
+    min-width: 100px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+
+
+#labelId {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    height: 5%;
+    justify-content: space-around;
+    min-width: 200px;
+    align-self: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+#textArea {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 100%;
+    min-width: 200px;
+    align-self: center;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+#btnNewPost {
+    display: flex;
+    width: 20%;
+    min-width: 100px;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1em;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid rgb(7, 0, 0);
+    background-color: rgb(27, 30, 233);
+    position: relative;
+    cursor: pointer;
+}
+
+/********* New post <==== *******/

@@ -1,0 +1,144 @@
+/* New User ====> */
+.sectionNewUser {
+    display: flex;
+    flex-direction: inline-block;
+    width: 99%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 12px;
+    background-color: rgb(95, 90, 90);
+
+}
+
+.userArea {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+    background-color: rgb(12, 51, 180);
+}
+
+.user {
+    display: flex;
+    font-size: 1em;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+}
+
+.user input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    font-size: 1em;
+    width: 30%;
+    min-width: 100px;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px;
+
+
+    border: 1px solid red;
+    border: 1px solid black;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(189, 194, 192);
+}
+
+.user button {
+    display: flex;
+    width: 20%;
+    min-width: 100px;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1em;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid red;
+    background-color: rgb(27, 30, 233);
+    position: relative;
+    cursor: pointer;
+}
+
+.usersBtn {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    font-size: 1em;
+    color: white;
+    border-radius: 6px;
+
+    min-width: 100px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    font-family: monospace;
+
+}
+
+ul {
+    background: rgb(27, 30, 233)e;
+    list-style: none;
+    margin: 0;
+
+}
+
+li {
+    z-index: 1;
+    color: #fff;
+    display: block;
+    float: left;
+    align-self: center;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    border-radius: 6px;
+    transition-duration: 0.5s;
+
+}
+
+li a {
+    color: #fff;
+}
+
+li:hover {
+    background: rgb(27, 30, 233);
+    cursor: pointer;
+}
+
+ul li ul {
+    background: orange;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+
+ul li:hover>ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li {
+    clear: both;
+    width: 100%;
+}
+
+/********* New User <==== *******/

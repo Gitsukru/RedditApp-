@@ -1,0 +1,86 @@
+/********* Topique / New Topic ====> *******/
+
+.section_Add_Topic {
+    display: flex;
+    flex-direction: column;
+    width: 57%;
+    height: 100%;
+    min-width: 150px;
+
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color: rgb(216, 225, 240);
+}
+
+
+
+.MyRedditStream {
+    display: flex;
+    margin: 5px 5px 5px 20px;
+    padding: 5px;
+    font-size: 2em;
+    flex-wrap: wrap;
+
+}
+
+.navTopics {
+    display: flex;
+    width: 98%;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+
+.navTopics button {
+    display: flex;
+    min-width: 50px;
+    justify-content: center;
+    flex-direction: row;
+    width: 13%;
+    min-width: 100px;
+    margin: 5px 5px 5px;
+    padding: 5px;
+    flex-wrap: wrap;
+    border-radius: 6px;
+
+    color: white;
+}
+
+#addTopicBtn {
+    background-color: rgb(12, 51, 180);
+    font-weight: bold;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#topicBtn {
+    background-color: blueviolet;
+}
+
+
+.navTopics button:hover {
+
+    cursor: pointer;
+}
+
+.navTopics input {
+    display: flex;
+    min-width: 50px;
+    justify-content: center;
+    border: 1px solid black;
+    flex-direction: row;
+    width: 20%;
+    min-width: 100px;
+    margin: 5px;
+
+    padding: 5px;
+    flex-wrap: wrap;
+    border-radius: 6px;
+    background-color: rgb(253, 252, 253);
+    color: rgb(8, 0, 0);
+}
+
+
+/********* Topique / New Topic <==== *******/
