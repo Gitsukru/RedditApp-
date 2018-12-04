@@ -18,44 +18,64 @@
 
 .MyRedditStream {
     display: flex;
+    flex-direction: row;
     margin: 5px 5px 5px 20px;
     padding: 5px;
-    font-size: 2em;
+    width: 100%;
     flex-wrap: wrap;
-
+    min-width: 100px;
+}
+.MyRedditStream div{
+    display: flex;
+    width: 100%;
+    
+    font-size: 2em;
+    min-width: 100px;
 }
 
 .navTopics {
     display: flex;
     width: 98%;
     justify-content: center;
+    flex-direction: row;
     margin: 5px;
     padding: 5px;
     flex-wrap: wrap;
 }
 
-.navTopics button {
+.topicBtn {
     display: flex;
     min-width: 50px;
     justify-content: center;
     flex-direction: row;
-    width: 13%;
+   
     min-width: 100px;
     margin: 5px 5px 5px;
     padding: 5px;
     flex-wrap: wrap;
     border-radius: 6px;
 
-    color: white;
+    
 }
 
 #addTopicBtn {
+    display: flex;
+    flex-direction: row;
+    min-width: 50px;
+    border-radius: 6px;
+    flex-wrap: wrap;
     background-color: rgb(12, 51, 180);
     font-weight: bold;
+    color: white;
     border: 1px solid rgb(255, 255, 255);
 }
 
 #topicBtn {
+    display: flex;
+    flex-direction: row;
+    min-width: 50px;
+    border-radius: 6px;
+    flex-wrap: wrap;
     background-color: blueviolet;
 }
 
